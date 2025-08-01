@@ -24,3 +24,44 @@
         2. r => right strip
 
     [Assignment](https://github.com/vjjangid/LearningPython/tree/main/PythonCrashCourse/02.Excercise) 
+
+3. **Exponent**
+    * Uses ** for exponent
+
+        ```python
+        square = 3 ** 2
+        ```
+
+4. **Datatypes**
+    * Number (1,2,3) => Any number is number
+    * Float (1.1, 5.3) => Any decimal number is called float
+    * Integer + float in any operation => float
+    * How to make number readables?
+        - you can use underscore
+        - universe_age = 1_00_000
+        - print(universe_age)
+    ```python
+    x, y, z = 0, 0, 0 #Multiple assignment
+    ``` 
+
+    ```python
+    MAX_CONNECTIONS = 500 #No specific keyword for const just naming convention is there
+    ```
+
+## **List**
+* Collection of elements
+
+```python
+names = ["ram", "mohan", "mahesh"]
+print(names) #print whole list
+print(names[0]) #Accessing element
+```
+
+* index starts at 0
+* How to modify/add/remove?
+    ```python
+    names[1] = "ram"
+    names.append('ducati') #at the end of list
+    names.insert(0, "mahesh") #insert at index => remeber it shifts the elements to its right
+    del name[0] # delete the elements in the list
+    ```    
