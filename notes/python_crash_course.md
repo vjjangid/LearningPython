@@ -1,6 +1,6 @@
 # **Python learning notes**
 
-    * **f-strings**
+    1. **f-strings**
         * format string => replaces the variables and format the string
         
         ```
