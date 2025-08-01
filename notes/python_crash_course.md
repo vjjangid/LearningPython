@@ -1,5 +1,14 @@
 # **Python learning notes**
 
+* [-] Variables and data types
+* [-] Introducing lists
+* [-] working with lists 
+* [-] if statements 
+* [-] dictionaries 
+* [-] user inputs and while loops 
+* [-] functions 
+* [-] classes 
+* [-] files and exceptions 
 1. **f-strings**
     * format string => replaces the variables and format the string
         
@@ -65,3 +74,47 @@ print(names[0]) #Accessing element
     names.insert(0, "mahesh") #insert at index => remeber it shifts the elements to its right
     del name[0] # delete the elements in the list
     ```    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
