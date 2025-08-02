@@ -73,7 +73,20 @@ print(names[0]) #Accessing element
     names.append('ducati') #at the end of list
     names.insert(0, "mahesh") #insert at index => remeber it shifts the elements to its right
     del name[0] # delete the elements in the list
-    ```    
+    item = names.pop() # removes last occurence you can pass index too
+    item = names.remove("value") #Removes first occurrence
+    ```  
+* sorting list
+    ```python
+    list.sort() #permanent sort of list
+    sorted(list) # temporary sore of list
+    list.reverse() # reverse the list
+    list.len() # get the length of list
+    ```
+
+> [!NOTE]
+> you can use the negative index -1 to get last element
+
     
 
 
