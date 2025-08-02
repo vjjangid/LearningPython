@@ -1,14 +1,23 @@
 # **Python learning notes**
 
-* [-] Variables and data types
-* [-] Introducing lists
-* [-] working with lists 
-* [-] if statements 
-* [-] dictionaries 
-* [-] user inputs and while loops 
-* [-] functions 
-* [-] classes 
-* [-] files and exceptions 
+> [!DONE] Variables and data types
+
+> [!DONE] Introducing lists
+
+> [!TODO] working with lists 
+
+> [!TODO] if statements 
+
+> [!TODO]dictionaries 
+
+> [!TODO]user inputs and while loops 
+
+> [!TODO]functions 
+
+> [!TODO]classes 
+
+> [!TODO]files and exceptions 
+
 1. **f-strings**
     * format string => replaces the variables and format the string
         
@@ -57,6 +66,8 @@
     MAX_CONNECTIONS = 500 #No specific keyword for const just naming convention is there
     ```
 
+----------
+
 ## **List**
 * Collection of elements
 
@@ -87,47 +98,41 @@ print(names[0]) #Accessing element
 > [!NOTE]
 > you can use the negative index -1 to get last element
 
-    
+* Looping through lists
+    ```python
+    countries = ["india", "japan", "us"]
+    for country in countries:
+        print(country)
+    ```
 
+> [!IMPORTANT]
+> identations are very strict in python. they basically defines **bolck**
 
+> [!IMPORTANT]
+>[! Question] What if you forgot the colon after the loop (:)??
+>Remeber it signifies the start of loop so you will get the error
 
+* few more thing good to know
+    1. range(1,5) => 1-4
+    2. range(5) => 0-4
+    3. min(list) => Minimum in list
+    4. max(list) => Maximum in list
+    5. sum(list) => Sum of elements in list
 
+* List comprehension
 
+if you see in below example here expression can be anything like what you perform on each number
+iterable can be any list on each member it will perform the operation
+and at the end create the list
+```python
+# list = [expresion for member in iterable]
+squares = [ value * value for value in range(5)]
 
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ > [!NOTE]
+ > map returns map object
+ > comprehension returns list
+ 
+----------
 
