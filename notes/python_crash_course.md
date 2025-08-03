@@ -135,4 +135,57 @@ squares = [ value * value for value in range(5)]
  > comprehension returns list
  
 ----------
+## Functions
+
+```python
+def function_name(parameter):
+    print(parameter)
+
+function_name(parameter)
+```
+
+* There are two types of arguments 
+    1. Positional
+    2. keywords
+
+```python
+def get_fullname(first_name, last_name):
+    return f"{first_name} {last+name}"
+
+get_fullname("vijay", "jangid") #positional argument
+get_fullname(first_name = "vijay", last_name="jangid") #keywords argument
+get_fullname(last_name = "jangid", first_name="vijay") #keywords argumnet
+
+```
+
+* You can have default values took
+```python
+def get_fullname(first_name, last_name = "jangid"):
+    return f"{first_name} {last+name}"
+
+get_fullname("vijay") 
+```
+> [!IMPORTANT]
+> Just like c# all default values arguments lies at the end of normal arguments
+
+* By default passing of list is call by ref
+* use slice operator to pass copy
+
+* you can pass arbitrary amount of parameters using *args. I will just create a tuple of it.
+```python
+def user_details(name, *args):
+    #do something
+
+```
+* you can pas dictionary to as arbitrary argument like this **keyargs. It converts the arguments in dictionary
+
+* imports in python
+    1. You can make module of by keeping functions in file like utils.py
+    2. Then you have thre ways to import.
+        * import utils.py => import every function
+        * from utils.py => import only one function
+        * from utils.py import sum as s => rename import name/alias
+        * from utils.py import * => import everything
+
+----------
 
