@@ -189,3 +189,45 @@ def user_details(name, *args):
 
 ----------
 
+## Classes
+
+```python
+class Dog:
+
+    """ model class for dog """
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def sit(self):
+        print(f"{self.name} is sitting")
+        
+    def roll_over(self):
+        print(f"{self.name} is rolling over")
+        
+```
+
+* We create class using keywork **class**
+* __init__(self, name, age) => Its like constructor of class. self is like this pointer which is but holds the instance of class
+* self.name just store it as attribute
+* Othre two are just like functions
+
+* create instance of the class
+```python
+dog = Dog("Ramu", 25)
+```
+
+* Inheritence
+
+```python
+class GullyDog(Dog):
+
+    def __init__(self, lives_in, name, age):
+        super().__init__(name, age)
+        self.lives_in = "gully"
+```
+
+* Overriding is allowed just redefine in child class
+
+----------
+
